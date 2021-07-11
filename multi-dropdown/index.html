@@ -1,28 +1,110 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Multi Level Dropdown</title>
-    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
-    <link href="styles.css" rel="stylesheet">
-</head>
-<body>
-<!--Nav markup goes here-->
+    <link
+      href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css"
+      rel="stylesheet"
+    />
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!--Nav markup goes here-->
+    <header>
+      <div class="container">
+        <nav>
+          <div class="menu-icons">
+            <div class="icon ion-md-menu"></div>
+            <div class="icon ion-md-close"></div>
+          </div>
+          <a href="index.html" class="logo"
+            ><i class="icon ion-md-restaurant"></i
+          ></a>
+          <ul class="nav-list">
+            <li>
+              <a href="index.html">Home</a>
+            </li>
+            <li>
+              <a href="index.html"
+                >Menu
+                <i class="icon ion-md-arrow-dropdown"></i>
+              </a>
+              <ul class="submenu">
+                <li>
+                  <a href="index.html">Breakfast</a>
+                </li>
+                <li>
+                  <a href="index.html"
+                    >Lunch
+                    <i class="icon ion-md-arrow-dropdown"></i>
+                  </a>
+                  <ul class="submenu">
+                    <li>
+                      <a href="index.html">Lunch-1</a>
+                    </li>
+                    <li>
+                      <a href="index.html"
+                        >Lunch-2
+                        <i class="icon ion-md-arrow-dropdown"></i>
+                      </a>
+                      <ul class="submenu">
+                        <li>
+                          <a href="index.html">VarietyLunch2.1</a>
+                        </li>
+                        <li>
+                          <a href="index.html">VarietyLunch-2.2</a>
+                        </li>
+                        <li>
+                          <a href="index.html">VarietyLunch-2.3</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="index.html">Lunch-3</a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="index.html">Dinner</a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="index.html">Chefs</a>
+            </li>
+            <li>
+              <a href="index.html">Gallery</a>
+            </li>
+            <li>
+              <a href="index.html">Blog</a>
+            </li>
+            <li>
+              <a href="index.html">Contact</a>
+            </li>
+            <li class="move-right btn">
+              <a href="index.html">Book a table</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!--End nav-->
 
-<!--End nav-->
-
-<!--Hero-->
-<section class="hero">
-    <div class="text">
+    <!--Hero-->
+    <section class="hero">
+      <div class="text">
         <h2>Proudly serving</h2>
         <h1>Delicious Food Daily</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
         <a href="#" class="btn">Learn more</a>
-    </div>
-</section>
-<script src="scripts.js"></script>
-</body>
+      </div>
+    </section>
+    <script src="scripts.js"></script>
+  </body>
 </html>
